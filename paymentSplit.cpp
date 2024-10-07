@@ -160,7 +160,7 @@ int main() {
     app.addUser(u4);
     // app.showAllUsers();
     // app.showFriendOfUser("u1");
-     app.addExpense(u1, 3000, {u1,u2,u3}, "EQUAL", {});
+     app.addExpense(u1, 100, {u1,u2,u3}, "EQUAL", {});
      app.showUserBalance(u1);
      app.showUserBalance(u2);
      app.showUserBalance(u3);
